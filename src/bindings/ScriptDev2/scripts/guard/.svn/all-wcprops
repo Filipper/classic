@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/scriptdev2/!svn/ver/33/scripts/guard
+END
+sc_guard_contested.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/33/scripts/guard/sc_guard_contested.cpp
+END
+sc_guard_ironforge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_ironforge.cpp
+END
+sc_guard_mulgore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_mulgore.cpp
+END
+sc_guard_bluffwatcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_bluffwatcher.cpp
+END
+sc_guard_tirisfal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_tirisfal.cpp
+END
+sc_guard_ai.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/scriptdev2/!svn/ver/32/scripts/guard/sc_guard_ai.h
+END
+sc_guard_elwynnforest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_elwynnforest.cpp
+END
+sc_guard_orgrimmar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_orgrimmar.cpp
+END
+sc_guard_durotar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_durotar.cpp
+END
+sc_guard_dunmorogh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_dunmorogh.cpp
+END
+sc_guard_darnassus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_darnassus.cpp
+END
+sc_guard_stormwind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_stormwind.cpp
+END
+sc_guard_teldrassil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_teldrassil.cpp
+END
+sc_guard_undercity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/scriptdev2/!svn/ver/22/scripts/guard/sc_guard_undercity.cpp
+END
