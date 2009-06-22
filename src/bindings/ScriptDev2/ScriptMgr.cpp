@@ -81,11 +81,14 @@ extern void AddSC_travelmaster();
 //------ ZONE --------
 
 //Alterac Mountains
+extern void AddSC_alterac_mountains();
 //Arathi Highlands
 //Ashenvale Forest
 //Azshara
+extern void AddSC_azshara();
 //Badlands
 //Barrens
+extern void AddSC_the_barrens();
 //Blackfathom Depths
 //Blackwing lair
 extern void AddSC_boss_razorgore();
@@ -262,11 +265,14 @@ void ScriptsInit()
     //------ ZONE --------
 
     //Alterac Mountains
+	AddSC_alterac_mountains();
     //Arathi Highlands
     //Ashenvale Forest
     //Azshara
+	AddSC_azshara();
     //Badlands
     //Barrens
+	AddSC_the_barrens();
     //Blackfathom Depths
     //Blackwing lair
     AddSC_boss_razorgore();

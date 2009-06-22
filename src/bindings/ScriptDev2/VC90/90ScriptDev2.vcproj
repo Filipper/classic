@@ -190,6 +190,10 @@
 			<Filter
 				Name="boss"
 				>
+				<File
+					RelativePath="..\scripts\boss\boss_emeriss.cpp"
+					>
+				</File>
 			</Filter>
 			<Filter
 				Name="creature"
@@ -337,6 +341,10 @@
 				<Filter
 					Name="Alterac Mountains"
 					>
+					<File
+						RelativePath="..\scripts\zone\alterac_mountains\alterac_mountains.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Ashenvale Forest"
@@ -345,6 +353,14 @@
 				<Filter
 					Name="Azshara"
 					>
+					<File
+						RelativePath="..\scripts\zone\azshara\azshara.cpp"
+						>
+					</File>
+					<File
+						RelativePath="..\scripts\zone\azshara\boss_azuregos.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Badlands"
@@ -353,6 +369,10 @@
 				<Filter
 					Name="Barrens"
 					>
+					<File
+						RelativePath="..\scripts\zone\barrens\the_barrens.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Blackfathom Depths"
@@ -361,6 +381,10 @@
 				<Filter
 					Name="Arathi Highlands"
 					>
+					<File
+						RelativePath="..\scripts\zone\arathi_highlands\arathi_highlands.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Blackrock Depths"
@@ -940,14 +964,6 @@
 				</Filter>
 				<Filter
 					Name="Upper Blackrock Spire"
-					>
-				</Filter>
-				<Filter
-					Name="Aunchindoun"
-					>
-				</Filter>
-				<Filter
-					Name="Black Temple"
 					>
 				</Filter>
 				<Filter

@@ -127,6 +127,13 @@ enum SelectEffect
     SELECT_EFFECT_AURA,                 //Spell applies an aura
 };
 
+enum SelectAggroTarget
+{
+	SELECT_TARGET_RANDOM = 0,                               //Just selects a random target
+    SELECT_TARGET_TOPAGGRO,                                 //Selects targes from top aggro to bottom
+    SELECT_TARGET_BOTTOMAGGRO,                              //Selects targets from bottom aggro to top
+};
+
 //Chat defines
 #define CHAT_MSG_MONSTER_SAY    0x0B
 #define CHAT_MSG_MONSTER_YELL   0x0C
