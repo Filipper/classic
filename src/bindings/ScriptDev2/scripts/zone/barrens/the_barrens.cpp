@@ -72,7 +72,7 @@ bool GossipSelect_npc_sputtervalve(Player* pPlayer, Creature* pCreature, uint32 
     if (action == GOSSIP_ACTION_INFO_DEF)
     {
         pPlayer->SEND_GOSSIP_MENU(2013, pCreature->GetGUID());
-        //pPlayer->AreaExploredOrEventHappens(6981);
+        pPlayer->AreaExplored(6981);
     }
     return true;
 }
