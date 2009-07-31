@@ -55,6 +55,11 @@ libmangosscript_la_SOURCES = \
 	scripts/servers/sc_battlemaster.cpp \
 	scripts/servers/sc_guildmaster.cpp \
 	scripts/servers/sc_travelmaster.cpp \
+	scripts/zone/alterac_mountains/alterac_mountains.cpp \
+	scripts/zone/arathi_highlands/arathi_highlands.cpp \
+	scripts/zone/azshara/azshara.cpp \
+	scripts/zone/azshara/boss_azuregos.cpp \
+	scripts/zone/barrens/the_barrens.cpp \
 	scripts/zone/blackwing_lair/sc_broodlord_lashlayer.cpp \
 	scripts/zone/blackwing_lair/sc_chromaggus.cpp \
 	scripts/zone/blackwing_lair/sc_ebonroc.cpp \
@@ -63,8 +68,13 @@ libmangosscript_la_SOURCES = \
 	scripts/zone/blackwing_lair/sc_nefarian.cpp \
 	scripts/zone/blackwing_lair/sc_razorgore.cpp \
 	scripts/zone/blackwing_lair/sc_vaelastrasz.cpp \
+	scripts/zone/burning_steppes/burning_steppes.cpp \
+	scripts/zone/desolace/desolace.cpp \
+	scripts/zone/dun_morogh/dun_morogh.cpp \
+	scripts/zone/dustwallow_marsh/dustwallow_marsh.cpp \
 	scripts/zone/elwynn_forest/sc_henze_faulk.cpp \
 	scripts/zone/elwynn_forest/sc_marshal_mcbride.cpp \
+	scripts/zone/felwood/felwood.cpp \
 	scripts/zone/molten_core/sc_boss_baron_geddon.cpp \
 	scripts/zone/molten_core/sc_boss_garr.cpp \
 	scripts/zone/molten_core/sc_boss_gehennas.cpp \

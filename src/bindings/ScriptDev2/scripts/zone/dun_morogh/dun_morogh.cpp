@@ -26,7 +26,6 @@ npc_narm_faulk
 EndContentData */
 
 #include "../../sc_defines.h"
-#include "../../../game/Unit.h"
 
 /*######
 ## npc_narm_faulk

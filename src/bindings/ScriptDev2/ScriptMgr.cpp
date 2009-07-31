@@ -102,21 +102,29 @@ extern void AddSC_boss_nefarian();
 
 //Blasted lands
 //Burning steppes
+extern void AddSC_burning_steppes();
+
 //Darkshore
 //Deadmines
 //Deadwind pass
 //Desolace
 //Dire Maul
 //Dun Morogh
+extern void AddSC_dun_morogh();
+
 //Durotar
 //Duskwood
-//Duskwallow marsh
+//Dustwallow marsh
+extern void AddSC_dustwallow_marsh();
+
 //Eastern Plaguelands
 //Elwynn Forest
 extern void AddSC_marshal_mcbride();
 extern void AddSC_henze_faulk();
 
 //Felwood
+extern void AddSC_felwood();
+
 //Feralas
 //Gnomeregan
 //Hillsbrad Foothills
@@ -286,21 +294,29 @@ void ScriptsInit()
 
     //Blasted lands
     //Burning steppes
+	AddSC_burning_steppes();
+
     //Darkshore
     //Deadmines
     //Deadwind pass
     //Desolace
     //Dire Maul
     //Dun Morogh
+	AddSC_dun_morogh();
+
     //Durotar
     //Duskwood
-    //Duskwallow marsh
+    //Dustwallow marsh
+	AddSC_dustwallow_marsh();
+
     //Eastern Plaguelands
     //Elwynn Forest
     AddSC_marshal_mcbride();
     AddSC_henze_faulk();
 
     //Felwood
+	AddSC_felwood();
+
     //Feralas
     //Gnomeregan
     //Hillsbrad Foothills

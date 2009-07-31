@@ -367,14 +367,6 @@
 					>
 				</Filter>
 				<Filter
-					Name="Barrens"
-					>
-					<File
-						RelativePath="..\scripts\zone\barrens\the_barrens.cpp"
-						>
-					</File>
-				</Filter>
-				<Filter
 					Name="Blackfathom Depths"
 					>
 				</Filter>
@@ -429,6 +421,10 @@
 				<Filter
 					Name="Dustwallow Marsh"
 					>
+					<File
+						RelativePath="..\scripts\zone\dustwallow_marsh\dustwallow_marsh.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Blackwing Lair"
@@ -985,6 +981,14 @@
 				<Filter
 					Name="Blasted Lands"
 					>
+				</Filter>
+				<Filter
+					Name="Barrens"
+					>
+					<File
+						RelativePath="..\scripts\zone\barrens\the_barrens.cpp"
+						>
+					</File>
 				</Filter>
 			</Filter>
 		</Filter>

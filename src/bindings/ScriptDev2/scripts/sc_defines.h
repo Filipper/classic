@@ -21,6 +21,9 @@
 #include "../ScriptMgr.h"
 
 // Gossip Text
+#define GOSSIP_TEXT_BROWSE_GOODS        "I'd like to browse your goods."
+#define GOSSIP_TEXT_TRAIN               "Train me!"
+
 #define GOSSIP_TEXT_BANK                "The Bank"
 #define GOSSIP_TEXT_WINDRIDER           "Wind rider master"
 #define GOSSIP_TEXT_GRYPHON             "Gryphon Master"
