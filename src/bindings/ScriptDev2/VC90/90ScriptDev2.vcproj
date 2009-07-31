@@ -605,6 +605,10 @@
 				<Filter
 					Name="Felwood"
 					>
+					<File
+						RelativePath="..\scripts\zone\felwood\felwood.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Feralas"
