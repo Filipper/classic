@@ -25,6 +25,7 @@
 #include "../../game/QuestDef.h"
 #include "../../game/WorldSession.h"
 #include "../../game/CreatureAI.h"
+#include "../../game/Unit.h"
 #include "../../game/TargetedMovementGenerator.h"
 #include "../../shared/WorldPacket.h"
 #include "../../shared/Database/DBCStores.h"

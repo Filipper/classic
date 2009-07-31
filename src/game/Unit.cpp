@@ -2387,6 +2387,17 @@ void Unit::RemoveAura(uint32 spellId, uint32 effindex)
         RemoveAura(i);
 }
 
+void Unit::RemoveAurasWithInterruptFlags(uint32 flags)
+{
+    for (AuraMap::iterator iter = m_Auras.begin(); iter != m_Auras.end(); )
+    {
+        if (iter->second->GetSpellProto()->AuraInterruptFlags & flags)
+            RemoveAura(iter);
+        else
+            ++iter;
+    }
+}
+
 void Unit::RemoveAurasDueToSpell(uint32 spellId)
 {
     for (int i = 0; i < 3; i++)
@@ -5266,6 +5277,36 @@ void Unit::ApplyDiminishingToDuration(DiminishingMechanics  mech, int32& duratio
                 default: break;
             }
         }
+    }
+}
+
+bool Unit::IsSitState() const
+{
+    uint8 s = getStandState();
+    return
+        s == UNIT_STAND_STATE_SIT_CHAIR        || s == UNIT_STAND_STATE_SIT_LOW_CHAIR  ||
+        s == UNIT_STAND_STATE_SIT_MEDIUM_CHAIR || s == UNIT_STAND_STATE_SIT_HIGH_CHAIR ||
+        s == UNIT_STAND_STATE_SIT;
+}
+
+bool Unit::IsStandState() const
+{
+    uint8 s = getStandState();
+    return !IsSitState() && s != UNIT_STAND_STATE_SLEEP && s != UNIT_STAND_STATE_KNEEL;
+}
+
+void Unit::SetStandState(uint8 state)
+{
+    SetByteValue(UNIT_FIELD_BYTES_1, 0, state);
+
+    if (IsStandState())
+       RemoveAurasWithInterruptFlags(AURA_INTERRUPT_FLAG_NOT_SEATED);
+
+    if(GetTypeId()==TYPEID_PLAYER)
+    {
+        WorldPacket data(SMSG_STANDSTATE_UPDATE, 1);
+        data << (uint8)state;
+        ((Player*)this)->GetSession()->SendPacket(&data);
     }
 }
 

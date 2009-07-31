@@ -590,6 +590,32 @@ void Object::_SetPackGUID(ByteBuffer *buffer, const uint64 &guid64) const
     }
 }
 
+void Object::SetByteValue( uint16 index, uint8 offset, uint8 value )
+{
+    ASSERT( index < m_valuesCount || PrintIndexError( index, true ) );
+
+    if(offset > 4)
+    {
+        sLog.outError("Object::SetByteValue: wrong offset %u", offset);
+        return;
+    }
+
+    if(uint8(m_uint32Values[ index ] >> (offset * 8)) != value)
+    {
+        m_uint32Values[ index ] &= ~uint32(uint32(0xFF) << (offset * 8));
+        m_uint32Values[ index ] |= uint32(uint32(value) << (offset * 8));
+
+        if(m_inWorld)
+        {
+            if(!m_objectUpdated)
+            {
+                ObjectAccessor::Instance().AddUpdateObject(this);
+                m_objectUpdated = true;
+            }
+        }
+    }
+}
+
 WorldObject::WorldObject( WorldObject *instantiator )
 {
     m_positionX         = 0.0f;

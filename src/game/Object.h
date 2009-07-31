@@ -203,6 +203,7 @@ class MANGOS_DLL_SPEC Object
         void _BuildMovementUpdate(ByteBuffer * data, uint8 flags, uint32 flags2 ) const;
         void _BuildValuesUpdate( ByteBuffer *data, UpdateMask *updateMask  ) const;
         void _SetPackGUID(ByteBuffer *buffer, const uint64 &guid64) const;
+		void SetByteValue(   uint16 index, uint8 offset, uint8 value );
 
         uint16 m_objectType;
 

@@ -709,6 +709,7 @@ enum OpCodes
     CMSG_GMTICKETSYSTEM_TOGGLE                      = 666,
     CMSG_CANCEL_GROWTH_AURA                         = 667,
     SMSG_CANCEL_AUTO_REPEAT                         = 668,
+	SMSG_STANDSTATE_UPDATE                          = 0x29D,
     SMSG_STANDSTATE_CHANGE_ACK                      = 669,
     SMSG_LOOT_ALL_PASSED                            = 670,
     SMSG_LOOT_ROLL_WON                              = 671,

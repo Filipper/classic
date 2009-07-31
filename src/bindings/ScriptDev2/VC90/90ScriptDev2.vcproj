@@ -401,6 +401,10 @@
 				<Filter
 					Name="Desolace"
 					>
+					<File
+						RelativePath="..\scripts\zone\desolace\desolace.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Dire Maul"
@@ -409,6 +413,10 @@
 				<Filter
 					Name="Dun Morogh"
 					>
+					<File
+						RelativePath="..\scripts\zone\dun_morogh\dun_morogh.cpp"
+						>
+					</File>
 				</Filter>
 				<Filter
 					Name="Durotar"
